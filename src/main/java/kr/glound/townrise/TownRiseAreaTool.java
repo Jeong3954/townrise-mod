@@ -133,7 +133,10 @@ public final class TownRiseAreaTool {
             SELECTIONS.remove(player.getUUID());
             player.displayClientMessage(message("구역이 확정되었습니다: " + area.compactDescription(), ChatFormatting.GOLD), false);
             player.displayClientMessage(message("크기: " + area.blockVolume() + " blocks", ChatFormatting.GRAY), false);
-        }, () -> player.displayClientMessage(message("두 지점이 모두 필요합니다. 좌클릭/우클릭 후 다시 Q로 확정하세요.", ChatFormatting.RED), false));
+        }, () -> {
+            player.getInventory().add(createTool());
+            player.displayClientMessage(message("두 지점이 모두 필요합니다. 도구를 다시 지급했으니 좌클릭/우클릭 후 Q로 확정하세요.", ChatFormatting.RED), false);
+        });
     }
 
     private static TownRiseAreaSelection selection(ServerPlayer player) {
