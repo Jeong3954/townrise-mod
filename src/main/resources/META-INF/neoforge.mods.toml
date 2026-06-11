@@ -1,14 +1,32 @@
 modLoader="javafml"
 loaderVersion="[4,)"
 license="${mod_license}"
-issueTrackerURL="https://example.invalid/townrise/issues"
+issueTrackerURL="https://github.com/Jeong3954/townrise-mod/issues"
 
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
-displayName="${mod_name}"
+displayName="${mod_name}: 시장의 시대"
 authors="${mod_authors}"
-description='''${mod_description}'''
+displayURL="https://github.com/Jeong3954/townrise-mod"
+logoFile="assets/townrise/logo.png"
+description='''
+TownRise: 시장의 시대
+
+정착민이 자원을 모으고, 시장이 흐르고, 마을이 스스로 성장하는
+한국형 생활/경제 서버를 위한 전용 클라이언트 모드입니다.
+
+현재 포함된 기능
+• TownRise 클라이언트 코어
+• GitHub Release 기반 Self-Updater
+• 업데이트 발견 시 다운로드 → 검증 → 안내 후 재시작 적용
+
+업데이트 설정
+JVM 옵션에 아래 값을 추가하면 자동 업데이트가 활성화됩니다.
+-Dtownrise.updateManifest=https://github.com/Jeong3954/townrise-mod/releases/download/v0.1.0-dev/manifest.json
+
+TownRise is developed by GLOUND.
+'''
 
 [[dependencies.townrise]]
 modId="neoforge"
