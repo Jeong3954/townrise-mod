@@ -9,11 +9,11 @@
   "files": [
     {
       "path": "mods/townrise.jar",
-      "name": "townrise-0.1.0-dev.jar",
-      "sha256": "bd96ade17301a2f583756160786c2e58c06b345aa3f85d99e8b53e4f06d57829",
-      "size": 15000,
-      "url": "https://github.com/Jeong3954/townrise-mod/releases/download/v0.1.0-dev/townrise-0.1.0-dev.jar"
+      "name": "townrise-0.1.1-dev.jar",
+      "sha256": "cdc601e6480f13f045499d9086098d51548e98d6f35cc378b98ffa18f61bbd71",
+      "size": 24476,
+      "url": "https://github.com/Jeong3954/townrise-mod/releases/download/v0.1.1-dev/townrise-0.1.1-dev.jar"
     }
   ],
-  "version": "0.1.0-dev"
+  "version": "0.1.1-dev"
 }

@@ -18,8 +18,10 @@ TownRise: 시장의 시대
 
 현재 포함된 기능
 • TownRise 클라이언트 코어
+• 창 타이틀 TownRise 적용
+• /town area create 구역 지정 도구
+• 좌클릭/우클릭 영역 선택, Q 확정
 • GitHub Release 기반 Self-Updater
-• 업데이트 발견 시 다운로드 → 검증 → 안내 후 재시작 적용
 
 업데이트 설정
 JVM 옵션에 아래 값을 추가하면 자동 업데이트가 활성화됩니다.

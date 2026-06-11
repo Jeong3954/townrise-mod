@@ -18,7 +18,7 @@ TownRise: 시장의 시대 NeoForge 기반 모드 프로토타입입니다.
 빌드 산출물:
 
 ```text
-build/libs/townrise-0.1.0-dev.jar
+build/libs/townrise-0.1.1-dev.jar
 ```
 
 ## 모드 내장 Self-Updater
@@ -55,6 +55,6 @@ scripts/publish-local-update.sh
 
 ## 클라이언트 테스트
 
-1. `updates/files/townrise-0.1.0-dev.jar` 또는 `build/libs/townrise-0.1.0-dev.jar`를 클라이언트 `mods/townrise.jar`로 배치
+1. `updates/files/townrise-0.1.1-dev.jar` 또는 `build/libs/townrise-0.1.1-dev.jar`를 클라이언트 `mods/townrise.jar`로 배치
 2. JVM 옵션에 GitHub raw manifest URL 추가
 3. 새 버전을 GitHub에 push하면 다음 실행 시 업데이트 확인
