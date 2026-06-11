@@ -23,7 +23,7 @@ TownRise: 시장의 시대
 
 업데이트 설정
 JVM 옵션에 아래 값을 추가하면 자동 업데이트가 활성화됩니다.
--Dtownrise.updateManifest=https://github.com/Jeong3954/townrise-mod/releases/download/v0.1.0-dev/manifest.json
+-Dtownrise.updateManifest=https://raw.githubusercontent.com/Jeong3954/townrise-mod/main/updates/manifest.json
 
 TownRise is developed by GLOUND.
 '''

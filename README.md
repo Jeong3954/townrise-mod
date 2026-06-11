@@ -39,7 +39,7 @@ build/libs/townrise-0.1.0-dev.jar
 TOWNRISE_UPDATE_MANIFEST=https://raw.githubusercontent.com/Jeong3954/townrise-mod/main/updates/manifest.json
 ```
 
-`manifest.json` 안의 `files/...jar` 상대 경로는 GitHub raw URL 기준으로 해석됩니다.
+`manifest.json` 자체 URL은 고정입니다. 버전이 바뀌면 이 manifest 파일 안의 jar URL만 새 GitHub Release asset으로 갱신됩니다.
 
 ## 업데이트 manifest 재생성
 
