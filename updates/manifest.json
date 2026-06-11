@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "modpack": "townrise-dev",
+  "minecraft": "1.21.1",
+  "loader": {
+    "type": "neoforge",
+    "version": "21.1.233"
+  },
+  "files": [
+    {
+      "path": "mods/townrise.jar",
+      "name": "townrise-0.1.0-dev.jar",
+      "sha256": "f225e7518af22d01709ee4cc8b42a845ac0a7ab091ad5f1bcfc2b12af0cf01c8",
+      "size": 13411,
+      "url": "files/townrise-0.1.0-dev.jar"
+    }
+  ],
+  "version": "0.1.0-dev"
+}
